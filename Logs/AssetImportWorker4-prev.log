@@ -1,0 +1,775 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.1f1 (3b70a0754835) revision 3895456'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22616) 64bit Professional' Language: 'ru' Physical Memory: 16315 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\unity\2021.3.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+D:/unity/New Unity Project
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+64774
+Successfully changed project path to: D:/unity/New Unity Project
+D:/unity/New Unity Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 111.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.1f1 (3b70a0754835)
+[Subsystems] Discovering subsystems at path D:/unity/2021.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/unity/New Unity Project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1e89)
+    Vendor:   NVIDIA
+    VRAM:     5968 MB
+    Driver:   30.0.15.1220
+Initialize mono
+Mono path[0] = 'D:/unity/2021.3.1f1/Editor/Data/Managed'
+Mono path[1] = 'D:/unity/2021.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/unity/2021.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56468
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unity/2021.3.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/unity/2021.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001783 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 118.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.610 seconds
+Domain Reload Profiling:
+	ReloadAssembly (611ms)
+		BeginReloadAssembly (61ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (457ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (105ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (283ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (119ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (117ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002500 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\unity\New Unity Project\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image D:\unity\New Unity Project\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.768 seconds
+Domain Reload Profiling:
+	ReloadAssembly (769ms)
+		BeginReloadAssembly (88ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (589ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (175ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (274ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (188ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3138 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (47.9 KB). Loaded Objects now: 3609.
+Memory consumption went from 118.2 MB to 118.2 MB.
+Total: 2.637800 ms (FindLiveObjects: 0.258300 ms CreateObjectMapping: 0.100900 ms MarkObjects: 2.210100 ms  DeleteObjects: 0.067600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 125144.895862 seconds.
+  path: Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Propane_Tall_01.prefab
+  artifactKey: Guid(1afa1867ded60d64c96cd54f8090fe93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Propane_Tall_01.prefab using Guid(1afa1867ded60d64c96cd54f8090fe93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '426ffe6fae28cac0f2b86cecdfc14d86') in 0.193322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008730 seconds.
+  path: Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Puddle_03.prefab
+  artifactKey: Guid(8527a16aa94739f42a24899e039a6b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Puddle_03.prefab using Guid(8527a16aa94739f42a24899e039a6b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ede7f58f6051ba2e2debd2af2ee8dc0') in 0.026485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.035315 seconds.
+  path: Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Puddle_05.prefab
+  artifactKey: Guid(e53af26dc1eaf93468313a3091ded5b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Puddle_05.prefab using Guid(e53af26dc1eaf93468313a3091ded5b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2150298de8aa8684ac40c805153a643f') in 0.039292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.029696 seconds.
+  path: Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Range_Booth_Side_01.prefab
+  artifactKey: Guid(3f06d0515e00e2a409ed197a26fb3f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Range_Booth_Side_01.prefab using Guid(3f06d0515e00e2a409ed197a26fb3f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5238e802b5e858b70d96fcc25a884abc') in 0.058551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017686 seconds.
+  path: Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Warehouse_Rack_02.prefab
+  artifactKey: Guid(bf5fb7a5ac240c345aedb73e81b1a989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Warehouse_Rack_02.prefab using Guid(bf5fb7a5ac240c345aedb73e81b1a989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e253967de868b7af4dcbebddc9e8f378') in 0.125742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.036273 seconds.
+  path: Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Warehouse_Venting_02.prefab
+  artifactKey: Guid(0850ed08edd20e8438cc2e3abf9eedba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Warehouse_Venting_02.prefab using Guid(0850ed08edd20e8438cc2e3abf9eedba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61df86f0b000b8d1841d24a4108ce394') in 0.056994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.081969 seconds.
+  path: Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Warehouse_Venting_Corner_02.prefab
+  artifactKey: Guid(4c120461f10abdf42800d3aea7125c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Warehouse_Venting_Corner_02.prefab using Guid(4c120461f10abdf42800d3aea7125c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b51fb5b6a8e4097da16d91b6f9de376d') in 0.128369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.045419 seconds.
+  path: Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Warehouse_Venting_End_02.prefab
+  artifactKey: Guid(6adca2b5759acb44884c8e4744b9f80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Warehouse_Venting_End_02.prefab using Guid(6adca2b5759acb44884c8e4744b9f80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dde83d6641bf0b9ef81a21bbc819db57') in 0.022017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014300 seconds.
+  path: Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Warehouse_Venting_Support_01.prefab
+  artifactKey: Guid(5e1479f24c97b424297915632b557981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Warehouse_Venting_Support_01.prefab using Guid(5e1479f24c97b424297915632b557981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2b37bc16198881b5532310aa1538ee7') in 0.039315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004472 seconds.
+  path: Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Warehouse_Wall_Switch_01.prefab
+  artifactKey: Guid(1d2d95dbc43b97645b9cb14577157866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Warehouse_Wall_Switch_01.prefab using Guid(1d2d95dbc43b97645b9cb14577157866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ba09459bc2d96954c0f63fa16c0099f') in 0.054758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.116457 seconds.
+  path: Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Wirespool_01.prefab
+  artifactKey: Guid(0b1d43d46b46e694f9db70ceded2af6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Wirespool_01.prefab using Guid(0b1d43d46b46e694f9db70ceded2af6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '043c17919403072b1023f53b34fd0a55') in 0.510849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Woodstack_01.prefab
+  artifactKey: Guid(14c5a815f96f74440beec78ad3349684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Woodstack_01.prefab using Guid(14c5a815f96f74440beec78ad3349684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7f87827b135d842a16b40f82d4c5942') in 0.015346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_ZipBag_Blue_L_02.prefab
+  artifactKey: Guid(9f90e8c7290ecc14da5a68b35c8db336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_ZipBag_Blue_L_02.prefab using Guid(9f90e8c7290ecc14da5a68b35c8db336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f0dad77de3d84c5376097aed3d2685') in 0.021470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021191 seconds.
+  path: Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_ZipBag_Blue_S_02.prefab
+  artifactKey: Guid(26de9573d55645d4b834e4991aa96921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_ZipBag_Blue_S_02.prefab using Guid(26de9573d55645d4b834e4991aa96921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af2665ae2c18751cd27165b7e5848712') in 0.023339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_ZipBag_Green_L_01.prefab
+  artifactKey: Guid(953ab808163b5a54d8ae726ff4a2555b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_ZipBag_Green_L_01.prefab using Guid(953ab808163b5a54d8ae726ff4a2555b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ae92311a9ae31c5a80533f71f6ca846') in 0.017770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002687 seconds.
+  path: Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_ZipBag_Green_L_03.prefab
+  artifactKey: Guid(1ada30d3347e7ec40be3b32f4ab74cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_ZipBag_Green_L_03.prefab using Guid(1ada30d3347e7ec40be3b32f4ab74cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '401bf3a532af283a003370d7862d5842') in 0.019501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_ZipBag_Green_S_02.prefab
+  artifactKey: Guid(08bcc0b9ba8442b428c652a4efc46ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_ZipBag_Green_S_02.prefab using Guid(08bcc0b9ba8442b428c652a4efc46ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0afb05610de9e2126d68c4db1024ed33') in 0.032431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011776 seconds.
+  path: Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_ZipBag_White_L_01.prefab
+  artifactKey: Guid(95985f6cb2685cc4e9e3b944711c64cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_ZipBag_White_L_01.prefab using Guid(95985f6cb2685cc4e9e3b944711c64cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f9de8c6267f1bffbc5c277d1bc5f5ee') in 0.034602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.074514 seconds.
+  path: Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_ZipBag_White_L_03.prefab
+  artifactKey: Guid(e3c50039fe8f745479d7d56744444e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_ZipBag_White_L_03.prefab using Guid(e3c50039fe8f745479d7d56744444e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b90bc4994559352811b0987e2d3dbec') in 0.015589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010804 seconds.
+  path: Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_ZipBag_White_S_02.prefab
+  artifactKey: Guid(6afb96c21dd28754aa75bb33bf10a078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_ZipBag_White_S_02.prefab using Guid(6afb96c21dd28754aa75bb33bf10a078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcb875aa9d3db524c72836a95a1528e3') in 0.036668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.567021 seconds.
+  path: Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Tray_Blue_Broken_01.prefab
+  artifactKey: Guid(5117fb5f72865bc4eb81a4ad52210a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Tray_Blue_Broken_01.prefab using Guid(5117fb5f72865bc4eb81a4ad52210a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8b0b998cd1cc2aa3ac7e84f40be210a') in 0.308550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022595 seconds.
+  path: Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Vase_02.prefab
+  artifactKey: Guid(52c4430934031b44584376d41c3e1705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Vase_02.prefab using Guid(52c4430934031b44584376d41c3e1705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53e0aa71bb421c720169a201e135ed76') in 0.035981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017019 seconds.
+  path: Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Warehouse_Fan_01.prefab
+  artifactKey: Guid(d61d00b648accdd4486a76f7afcbda50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Warehouse_Fan_01.prefab using Guid(d61d00b648accdd4486a76f7afcbda50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7faab08245ca2105c52d7bf9f25539e') in 0.028030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015898 seconds.
+  path: Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Warehouse_Firehose_01.prefab
+  artifactKey: Guid(29085468afa9c874996227eb3e967597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Warehouse_Firehose_01.prefab using Guid(29085468afa9c874996227eb3e967597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '288f7633994150551ca5166393ecf675') in 0.049642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022964 seconds.
+  path: Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Warehouse_Grate_02.prefab
+  artifactKey: Guid(8d7bacdf6d71cec44915ad64511d065d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Warehouse_Grate_02.prefab using Guid(8d7bacdf6d71cec44915ad64511d065d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf41c0ca3862fd9648bb0eca22d821a3') in 0.022659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Warehouse_Grate_04.prefab
+  artifactKey: Guid(bc19132a56cb1c14db60c711934f90c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Warehouse_Grate_04.prefab using Guid(bc19132a56cb1c14db60c711934f90c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca95f04460b493e9d432e75e533e2768') in 0.015328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021611 seconds.
+  path: Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Table_Metal_Preset_01.prefab
+  artifactKey: Guid(45d271f7f69f87a4e8e5b9cfbde6fd31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Table_Metal_Preset_01.prefab using Guid(45d271f7f69f87a4e8e5b9cfbde6fd31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04887130a1934c0d10ef347f9d90c6e9') in 0.045401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006990 seconds.
+  path: Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Table_Metal_Preset_04.prefab
+  artifactKey: Guid(2f42d0296170f7543ae6c8037effe144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Table_Metal_Preset_04.prefab using Guid(2f42d0296170f7543ae6c8037effe144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3571fa18642bca439ec3461d1db5cecc') in 0.048791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011122 seconds.
+  path: Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Toy_Samurai_Arm_01.prefab
+  artifactKey: Guid(46816ec0609c5574682005aa5b648d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Toy_Samurai_Arm_01.prefab using Guid(46816ec0609c5574682005aa5b648d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '340f922f6ab1028ee40bcf1c8ab9e987') in 0.014997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013926 seconds.
+  path: Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Toy_Samurai_Body_Unpainted_01.prefab
+  artifactKey: Guid(ba738993d9e1ab24fa055bd804c25930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Toy_Samurai_Body_Unpainted_01.prefab using Guid(ba738993d9e1ab24fa055bd804c25930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6137dd7857a9552590b21dbe169d27c') in 0.010743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Toy_Samurai_Head_01.prefab
+  artifactKey: Guid(c5dd0d6291655264e9d1ea11b1e4981a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Toy_Samurai_Head_01.prefab using Guid(c5dd0d6291655264e9d1ea11b1e4981a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '044d16e4633e6c3971f98eccde137102') in 0.014676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012948 seconds.
+  path: Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Toy_Samurai_TorsoOpen_01.prefab
+  artifactKey: Guid(67e28c60f4ec8c640be0593a9937c0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Toy_Samurai_TorsoOpen_01.prefab using Guid(67e28c60f4ec8c640be0593a9937c0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '923c84abe80c935df167a40458852de3') in 0.037922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Tray_Blue_01.prefab
+  artifactKey: Guid(43935f76070b83149ae9aa5707e7604c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Tray_Blue_01.prefab using Guid(43935f76070b83149ae9aa5707e7604c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39adfb7f0cc4248927997b885ff10ad8') in 0.016155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.238910 seconds.
+  path: Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Shelf_01.prefab
+  artifactKey: Guid(545b8937bb91d544aa7bc3b1d7bb580d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Shelf_01.prefab using Guid(545b8937bb91d544aa7bc3b1d7bb580d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78a46a591e499e39d8c722109df82a41') in 0.123388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.062638 seconds.
+  path: Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Sign_Caution_01.prefab
+  artifactKey: Guid(18bffc42d949c554792684e37bfe7448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Sign_Caution_01.prefab using Guid(18bffc42d949c554792684e37bfe7448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f842207bce76a932669ec080fc74702f') in 0.050771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Sign_KeepOut_01.prefab
+  artifactKey: Guid(ed83dc50c9c08e94daa6df4b3a685dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Sign_KeepOut_01.prefab using Guid(ed83dc50c9c08e94daa6df4b3a685dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e27811f81e33a8ca2cbcb485b20a4bc4') in 0.172233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018778 seconds.
+  path: Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Slowcooker_01.prefab
+  artifactKey: Guid(4c6612acb1822b64daa9a1c245e9dd9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Slowcooker_01.prefab using Guid(4c6612acb1822b64daa9a1c245e9dd9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6afb8400ac3b507608895853f5d3d4f6') in 0.101305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.068707 seconds.
+  path: Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Speed_Bump_01.prefab
+  artifactKey: Guid(907cd6937486983428c9fa124b44ce1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Speed_Bump_01.prefab using Guid(907cd6937486983428c9fa124b44ce1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59e56abc8f53f8de9d05ceb5cd6b4ff4') in 0.105523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.038366 seconds.
+  path: Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_SprayCan_02.prefab
+  artifactKey: Guid(cfae29503bf491d4ea15c4e32cb41064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_SprayCan_02.prefab using Guid(cfae29503bf491d4ea15c4e32cb41064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30aad3aff88c31c375ba59c007f1382e') in 0.083350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022048 seconds.
+  path: Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Syringe_01.prefab
+  artifactKey: Guid(a5579350765418e4187fe95dae48c286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Syringe_01.prefab using Guid(a5579350765418e4187fe95dae48c286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a81e67705e004970f91dddc99cffd16') in 0.174110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.116883 seconds.
+  path: Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Table_Metal_01.prefab
+  artifactKey: Guid(a852a93679cfbcf44a712b85fbb34edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Table_Metal_01.prefab using Guid(a852a93679cfbcf44a712b85fbb34edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb1d57e0651d515fa563239edd9aaf39') in 0.051144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.075707 seconds.
+  path: Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Range_BoothTable_01.prefab
+  artifactKey: Guid(0713f3bf7559df943b377b34005a0bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Range_BoothTable_01.prefab using Guid(0713f3bf7559df943b377b34005a0bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e22223f58ef921894426bb45f4d21a') in 0.051531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.243265 seconds.
+  path: Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Range_Rail_01.prefab
+  artifactKey: Guid(caf272b269c243346b3a74266233df96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Range_Rail_01.prefab using Guid(caf272b269c243346b3a74266233df96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba793de9d7377fd607db852503933740') in 0.080859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.201906 seconds.
+  path: Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Range_Switch_01.prefab
+  artifactKey: Guid(c129097ff8e354e43be1e5ef3f514877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Range_Switch_01.prefab using Guid(c129097ff8e354e43be1e5ef3f514877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e1c751ea26a7d21f33854207d2d0e31') in 0.124231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.056338 seconds.
+  path: Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Range_TargetHolder_01.prefab
+  artifactKey: Guid(c851eb274f5c4c34c8694eb34364329a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Range_TargetHolder_01.prefab using Guid(c851eb274f5c4c34c8694eb34364329a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7535182459b50d248b5f6ca53448478') in 0.348706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.096323 seconds.
+  path: Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_RubberMat_01.prefab
+  artifactKey: Guid(cc74bd65556bda349b3964a0565767c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_RubberMat_01.prefab using Guid(cc74bd65556bda349b3964a0565767c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef1104a5ad00e922ea838872be8307de') in 0.042065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.055876 seconds.
+  path: Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Scales_01.prefab
+  artifactKey: Guid(7a6c1d6d181e2b84b98563111af4661b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Scales_01.prefab using Guid(7a6c1d6d181e2b84b98563111af4661b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a50f6829072e4816120c5a1c766d4aaf') in 0.124312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.104079 seconds.
+  path: Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Security_Camera_02.prefab
+  artifactKey: Guid(93f413a26474aa14882b067c0e9e406f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Security_Camera_02.prefab using Guid(93f413a26474aa14882b067c0e9e406f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8395ca4bb71c904dcddbf41a976f724c') in 0.064883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.042135 seconds.
+  path: Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Setup_Clean_01.prefab
+  artifactKey: Guid(43c3a1de3a8869d4abfd1b0ab824d9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonGangWarfare/Prefabs/Props/SM_Prop_Setup_Clean_01.prefab using Guid(43c3a1de3a8869d4abfd1b0ab824d9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e268b0e9557da13bc2f71ee4c5f5767') in 0.178220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 73.122853 seconds.
+  path: Assets/PolygonGangWarfare/Prefabs/Props
+  artifactKey: Guid(6c1b80f5f0768ff48a0c34c6c8286a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonGangWarfare/Prefabs/Props using Guid(6c1b80f5f0768ff48a0c34c6c8286a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37d54955a6c50d6df7f954d6c1908fe7') in 0.001031 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002112 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\unity\New Unity Project\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image D:\unity\New Unity Project\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.826 seconds
+Domain Reload Profiling:
+	ReloadAssembly (827ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (632ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (206ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (284ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (202ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3128 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (24.7 KB). Loaded Objects now: 3618.
+Memory consumption went from 121.9 MB to 121.9 MB.
+Total: 3.035400 ms (FindLiveObjects: 0.370800 ms CreateObjectMapping: 0.086600 ms MarkObjects: 2.558100 ms  DeleteObjects: 0.018400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002149 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\unity\New Unity Project\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image D:\unity\New Unity Project\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.821 seconds
+Domain Reload Profiling:
+	ReloadAssembly (822ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (625ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (202ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (283ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (46ms)
+				ProcessInitializeOnLoadAttributes (194ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3128 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (24.6 KB). Loaded Objects now: 3621.
+Memory consumption went from 121.9 MB to 121.9 MB.
+Total: 2.983300 ms (FindLiveObjects: 0.268000 ms CreateObjectMapping: 0.076700 ms MarkObjects: 2.624600 ms  DeleteObjects: 0.013100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 666.332085 seconds.
+  path: Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Air_Horn_01.prefab
+  artifactKey: Guid(3db91374ff13ad14e98c0fd485df17d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Air_Horn_01.prefab using Guid(3db91374ff13ad14e98c0fd485df17d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4537435aef8c62be39f061a6b768e90b') in 0.187923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Alcohol_Broken_03.prefab
+  artifactKey: Guid(1dc3b42f7f53e474c8268e5d68f9699a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Alcohol_Broken_03.prefab using Guid(1dc3b42f7f53e474c8268e5d68f9699a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bca56b730967a42b642df59e7e7955ba') in 0.111120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Ammo_762_01.prefab
+  artifactKey: Guid(3c04b696e75f45847b55a0268a323a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Ammo_762_01.prefab using Guid(3c04b696e75f45847b55a0268a323a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b64e96c9caa8f1047fcf69fff3c6aef') in 0.086542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Ammo_Crate_04.prefab
+  artifactKey: Guid(8778a742b666cae4b8af6820f6de6aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Ammo_Crate_04.prefab using Guid(8778a742b666cae4b8af6820f6de6aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee4f3fa5b8e8c7377c48fd0b03a5effc') in 0.050327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Ammo_Paper_Open_01.prefab
+  artifactKey: Guid(d573dca06bd66504eac034222175d09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Ammo_Paper_Open_01.prefab using Guid(d573dca06bd66504eac034222175d09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe6af2bf95f936b289f8b0c2ff2ea8f0') in 0.088614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Book_01.prefab
+  artifactKey: Guid(f4466bcf4c25696408d197818abd1430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Book_01.prefab using Guid(f4466bcf4c25696408d197818abd1430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c20e2c23e81adcc45d941be29ac39c0') in 0.206998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Ammo_9mm_Open_01.prefab
+  artifactKey: Guid(7a5dc0c73dd33934e8c72bd06458e20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Ammo_9mm_Open_01.prefab using Guid(7a5dc0c73dd33934e8c72bd06458e20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b0e032b977d04e12d5c0d2bb1658aa8') in 0.307656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Bottle_01.prefab
+  artifactKey: Guid(ce5e76ba17268e64783bd8d5212a8c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Bottle_01.prefab using Guid(ce5e76ba17268e64783bd8d5212a8c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8d6e2dfa28656e8067a51ce48204fc9') in 0.081403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Bullet_Shotgun_01.prefab
+  artifactKey: Guid(c943f29a94dea64479cda2fd9c1ce107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Bullet_Shotgun_01.prefab using Guid(c943f29a94dea64479cda2fd9c1ce107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f40ab6be53ec47b7bd069f5865494fd') in 0.066925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Can_07.prefab
+  artifactKey: Guid(7e25cc1253205ab45bf2f21ac7f68181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Can_07.prefab using Guid(7e25cc1253205ab45bf2f21ac7f68181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bfb0164c00cbde5d4a60503baf124dd') in 0.060994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Can_08.prefab
+  artifactKey: Guid(eb0cbb6bcee01ad40848859f2fc6535c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Can_08.prefab using Guid(eb0cbb6bcee01ad40848859f2fc6535c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bc50305a1bdae1b7fda7947247d8a67') in 0.061131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Fishing_Rod_01.prefab
+  artifactKey: Guid(b50ca22ff5ac8c54386da5dbdf193363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Fishing_Rod_01.prefab using Guid(b50ca22ff5ac8c54386da5dbdf193363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6faf20a380e2c90ade48693618babc37') in 0.058381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Alcohol_Broken_01.prefab
+  artifactKey: Guid(f9c5616a18c549d4eaa5ded0fcecfb0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Alcohol_Broken_01.prefab using Guid(f9c5616a18c549d4eaa5ded0fcecfb0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2df01adb3cbfb67f3146c0c1494e5ca6') in 0.085974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Alcohol_04.prefab
+  artifactKey: Guid(119deb9a1b861344eb8660c95692a006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Alcohol_04.prefab using Guid(119deb9a1b861344eb8660c95692a006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67a5f9dfd43960727eeb623facaf5755') in 0.053654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Ammo_556_Open_01.prefab
+  artifactKey: Guid(1f7ce2f8fb1bad345a338ecd334b3ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Ammo_556_Open_01.prefab using Guid(1f7ce2f8fb1bad345a338ecd334b3ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4dc95f3023886a27e854d554c0c89a6') in 0.063466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Alcohol_07.prefab
+  artifactKey: Guid(d48ad9c1809a65e47b786f1ef3f8c26f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Alcohol_07.prefab using Guid(d48ad9c1809a65e47b786f1ef3f8c26f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78f45eaeb8c5c07e61626e9ff9aeb365') in 0.053850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Ammo_9mm_01.prefab
+  artifactKey: Guid(86bb9dc1b51ac1b40881bebab79f89cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Ammo_9mm_01.prefab using Guid(86bb9dc1b51ac1b40881bebab79f89cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f54e0fdd6badde81e6eda06cde8119c7') in 0.079061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Alcohol_03.prefab
+  artifactKey: Guid(5ecd7ef4327b4dd40800a95e990697ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Alcohol_03.prefab using Guid(5ecd7ef4327b4dd40800a95e990697ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b28577b3c649aa019649731d12d3e5e') in 0.061101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Jar_01.prefab
+  artifactKey: Guid(74bb9c0d68e161047ba2ff77572a8f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Jar_01.prefab using Guid(74bb9c0d68e161047ba2ff77572a8f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ce3270e06643c36006ce2dcac77bf36') in 0.170323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Camera_01.prefab
+  artifactKey: Guid(c63081b7c68aab742937fce11cf85e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Camera_01.prefab using Guid(c63081b7c68aab742937fce11cf85e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '899f9927ef2e3689f89f39f4605fa8dd') in 0.643116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Can_06.prefab
+  artifactKey: Guid(c0094da9415593445a19c3dc77e9511f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Can_06.prefab using Guid(c0094da9415593445a19c3dc77e9511f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db48d8e828a50159f954e3d01832756d') in 0.330730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Laptop_01.prefab
+  artifactKey: Guid(001e7162e31a7a74d9328ee6f66d5329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Laptop_01.prefab using Guid(001e7162e31a7a74d9328ee6f66d5329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1d00bf4320f493d1abf835057810312') in 0.052336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Battery_01.prefab
+  artifactKey: Guid(e4cf0824496bede4bb19ba9967e020f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Battery_01.prefab using Guid(e4cf0824496bede4bb19ba9967e020f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f157fcb0970e5f4030897e140979ee5') in 0.131365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Drink_Bottle_01.prefab
+  artifactKey: Guid(6f4046d7967c3b74a88971615df168e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Drink_Bottle_01.prefab using Guid(6f4046d7967c3b74a88971615df168e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '418493ee7def9b7b92bf1bbe4e1c6276') in 0.237202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Ammo_Crate_03.prefab
+  artifactKey: Guid(3e929c997b3a59442a790eecab3edd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Ammo_Crate_03.prefab using Guid(3e929c997b3a59442a790eecab3edd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5016a817f22519dc6929771c421e7051') in 0.083147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Bread_01.prefab
+  artifactKey: Guid(ea8fc872ca6a2dd43aff8e9c1cfe6b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Bread_01.prefab using Guid(ea8fc872ca6a2dd43aff8e9c1cfe6b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a40ebe68b172fc3ed9e200ac97a0e8c1') in 0.211886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Binoculars_01.prefab
+  artifactKey: Guid(1606171f5520cde4490b5bb029454b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Binoculars_01.prefab using Guid(1606171f5520cde4490b5bb029454b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1017abd834c5f399fd91c95d43e35fa') in 0.129541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Log_02.prefab
+  artifactKey: Guid(9fb49ad0440681b4493820bc697b4680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Log_02.prefab using Guid(9fb49ad0440681b4493820bc697b4680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0794176ac6030f0461acf09d96825b3c') in 0.091647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Battery_02.prefab
+  artifactKey: Guid(3227180798afcde40a94b36943725c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Battery_02.prefab using Guid(3227180798afcde40a94b36943725c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13028f9999b4a0656ceb3650e465ed56') in 0.155546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Compass_01.prefab
+  artifactKey: Guid(f9bf4d782a1fbd54783d4d28c995240d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Compass_01.prefab using Guid(f9bf4d782a1fbd54783d4d28c995240d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0f2dd49806a3cca575ee9969ec804c8') in 0.097995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Frypan_02.prefab
+  artifactKey: Guid(03d5098d00509404aa5d44447a56a381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Frypan_02.prefab using Guid(03d5098d00509404aa5d44447a56a381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a67f5bb8e3f4a1c54632c77cf35a38') in 0.189693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Log_01.prefab
+  artifactKey: Guid(76268956b264f0146950f405edf04c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Prefabs/Item/SM_Item_Log_01.prefab using Guid(76268956b264f0146950f405edf04c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce0e4d74f6a07117ff249de37c4db987') in 0.124520 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
